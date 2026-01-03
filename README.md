@@ -6,9 +6,11 @@ this is forked from jwalton512/vim-blade which was archived by the owner on Feb 
 
 note: I haven't updated all syntax tokens. Just those I ran into
 
-updated concersn:
+updated concerns:
 
-* CompilesConditionals.php [laravel 12](https://github.com/laravel/framework/tree/12.x/src/Illuminate/View)
+* CompilesConditionals.php [Laravel 12](https://github.com/laravel/framework/blob/12.x/src/Illuminate/View/Compilers/Concerns/CompilesConditionals.php)
+* CompilesSessions.php [Laravel 12](https://github.com/laravel/framework/blob/12.x/src/Illuminate/View/Compilers/Concerns/CompilesSessions.php)
+* CompilesContexts.php [laravel 12](https://github.com/laravel/framework/blob/12.x/src/Illuminate/View/Compilers/Concerns/CompilesContexts.php)
 
 
 
