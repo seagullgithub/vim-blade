@@ -36,6 +36,7 @@ syn keyword bladeKeyword @if @elseif @foreach @forelse @for @while @can @cannot 
     \ @sectionMissing @env @production @default @once @bool @checked @disabled @required @readonly @selected
     \ @pushIf
     \ @session
+    \ @context
     \ nextgroup=bladePhpParenBlock skipwhite containedin=ALLBUT,@bladeExempt
 
 syn keyword bladeKeyword @else @endif @endunless @endfor @endforeach @endforelse @endwhile @endcan
@@ -43,6 +44,7 @@ syn keyword bladeKeyword @else @endif @endunless @endfor @endforeach @endforelse
     \ @endslot @endprepend @endisset @endempty @endauth @endguest @endswitch 
     \ @endenv @endProduction @elseAuth @elseGuest @endOnce @elsePushIf @elsePush @endPushIf
     \ @endSession
+    \ @endContext
     \ containedin=ALLBUT,@bladeExempt
 
 if exists('g:blade_custom_directives')
