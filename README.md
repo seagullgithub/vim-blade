@@ -2,7 +2,15 @@
 
 Vim syntax highlighting for Blade templates (Laravel 4+).
 
-This plugin contributes to [vim-polyglot](https://github.com/sheerun/vim-polyglot) language pack.
+this is forked from jwalton512/vim-blade which was archived by the owner on Feb 22, 2024
+
+note: I haven't updated all syntax tokens. Just those I ran into
+
+updated concersn:
+
+* CompilesConditionals.php [laravel 12](https://github.com/laravel/framework/tree/12.x/src/Illuminate/View)
+
+
 
 Installation
 ------------
@@ -10,13 +18,13 @@ Installation
 Using vim-plug
 [vim-plug](https://github.com/junegunn/vim-plug).
 
-    Plug 'jwalton512/vim-blade'
+    Plug 'seagullgithub/vim-blade'
 
 Using pathogen 
 [pathogen.vim](https://github.com/tpope/vim-pathogen).  
 
     cd ~/.vim/bundle
-    git clone git://github.com/jwalton512/vim-blade.git
+    git clone git://github.com/seagullgithub/vim-blade.git
 
 Configuration
 -------------
@@ -39,7 +47,3 @@ Contributing
 ------------
 
 Pull requests are greatly appreciated. Please be certain to include a test where applicable (`test.blade.php`). You may test locally by using `vim -u vimrc`.
-
-Want to buy me a coffee?
-------------------------
-[![Flattr this git repo](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=jwalton512&url=https://github.com/jwalton512/vim-blade&title=vim-blade&language=vimscript&tags=github&category=software)
